@@ -1,0 +1,13 @@
+// segment > customers
+
+var segments = r42data.get('segments') || {};
+
+segments.customer = 'yes';
+segments.customertype = 'consumer';
+segments.keysegment = 'internet+dtv+tel';
+segments.legacy = 's3';
+
+_st('publishEvent', 'engagement/segments', 'keysegment', segments);
+
+_st.data.setProperty('keysegment', 's3');	// legacy!
+_st('publishEvent','keysegment','s3'); 	// legacy!

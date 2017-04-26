@@ -1,0 +1,26 @@
+(function(s){
+s.data["1085_151"]=false;
+s.data["1085_372"]=false;
+s.data["1085_350"]=false;
+s.data["1085_183"]=false;
+s.data["1085_186"]=false;
+s.data["1085_560"]=false;
+s.data["1085_164"]=false;
+s.data["1085_285"]={"v_geo_segment_descr":"7. Traditionals","v_geo_segment_id":"7","v_migration_status":"Succesfully migrated","v_week_nr":"34"};
+s.data["1085_341"]=false;
+s.data["1085_544"]=false;
+s.data["1085_523"]=false;
+s.data["1085_102"]={};
+s.data["1085_322"]={};
+s.data["1085_345"]=false;
+s.data["1085_636"]=false;
+s.data["1085_427"]=false;
+s.data["1085_119"]=false;
+s.data["1085_667"]=false;
+s.data["1085_546"]=false;
+s.data["1085_249"]={};
+s.data["1085_524"]=false;
+for(var i=0;i<s.listeners.length;i++){
+s.listeners[i]("1085_151","1085_372","1085_350","1085_183","1085_186","1085_560","1085_164","1085_285","1085_341","1085_544","1085_523","1085_102","1085_322","1085_345","1085_636","1085_427","1085_119","1085_667","1085_546","1085_249","1085_524");
+}
+})(_st.segmenting);
