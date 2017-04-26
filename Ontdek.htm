@@ -51,113 +51,7 @@
     <script async="" src="./Ontdek_files/prum.min.js"></script>
     <script async="" src="./Ontdek_files/analytics.js"></script>
     <!--script async="" type="text/javascript" src="./Ontdek_files/prod"></script-->
-    <script async="" src="./Ontdek_files/1085-v1.js"></script>
-    <script>
-        ! function(e) {
-            "use strict";
-            var t = function(t, n, r) {
-                function o(e) {
-                    return i.body ? e() : void setTimeout(function() {
-                        o(e)
-                    })
-                }
-
-                function a() {
-                    d.addEventListener && d.removeEventListener("load", a), d.media = r || "all"
-                }
-                var l, i = e.document,
-                    d = i.createElement("link");
-                if (n) l = n;
-                else {
-                    var s = (i.body || i.getElementsByTagName("head")[0]).childNodes;
-                    l = s[s.length - 1]
-                }
-                var u = i.styleSheets;
-                d.rel = "stylesheet", d.href = t, d.media = "only x", o(function() {
-                    l.parentNode.insertBefore(d, n ? l : l.nextSibling)
-                });
-                var f = function(e) {
-                    for (var t = d.href, n = u.length; n--;)
-                        if (u[n].href === t) return e();
-                    setTimeout(function() {
-                        f(e)
-                    })
-                };
-                return d.addEventListener && d.addEventListener("load", a), d.onloadcssdefined = f, f(a), d
-            };
-            "undefined" != typeof exports ? exports.loadCSS = t : e.loadCSS = t
-        }("undefined" != typeof global ? global : this),
-        function(e) {
-            if (e.loadCSS) {
-                var t = loadCSS.relpreload = {};
-                if (t.support = function() {
-                        try {
-                            return e.document.createElement("link").relList.supports("preload")
-                        } catch (t) {
-                            return !1
-                        }
-                    }, t.poly = function() {
-                        for (var t = e.document.getElementsByTagName("link"), n = 0; n < t.length; n++) {
-                            var r = t[n];
-                            "preload" === r.rel && "style" === r.getAttribute("as") && (e.loadCSS(r.href, r), r.rel = null)
-                        }
-                    }, !t.support()) {
-                    t.poly();
-                    var n = e.setInterval(t.poly, 300);
-                    e.addEventListener && e.addEventListener("load", function() {
-                        e.clearInterval(n)
-                    }), e.attachEvent && e.attachEvent("onload", function() {
-                        e.clearInterval(n)
-                    })
-                }
-            }
-        }(this);
-    </script>
-    <script async="" type="text/javascript" src="./Ontdek_files/modernizr-custom.js"></script>
-    <script async="" type="text/javascript">
-        var is_mobile = false;
-        if (/Android|webOS|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini/i.test(navigator.userAgent)) {
-            is_mobile = true;
-        }
-    </script>
-    <script async="" type="text/javascript">
-        var Settings = Settings || {};
-        (function(a, d, e, b, f, c, s) {
-            a[b] = a[b] || function() {
-                a[b].q.push(arguments);
-            };
-            a[b].q = [];
-            c = d.createElement(e);
-            c.async = 1;
-            c.src = "//tdn.r42tag.com/lib/" + f + ".js";
-
-            s = d.getElementsByTagName(e)[0];
-            s.parentNode.insertBefore(c, s);
-        })
-
-        (window, document, "script", "_st", "1085-v1");
-        _st('setStructurePrefix', 'entertainment', 'ontdekziggo');
-        _st('setPageStructure', document.location.pathname.replace(/^\/|\/$/g, '').replace(/\//g, '|'));
-        _st('addTagProperties', {
-            'page': {
-                'type': 'ziggoSportTotaal',
-                'environment': 'prod',
-                'tags': ['sport', 'films-series', 'muziek']
-            }
-        });
-
-        if (!window.UPC) {
-            window.UPC = {
-                vars: {}
-            };
-        } else if (!window.UPC.vars) {
-            window.UPC.vars = {};
-        }
-        window.UPC.vars.contentType = "sport|films-series|muziek";
-        // Add additional TagProperties here.
-        // Declare them before firing _st('loadTags')
-        _st('loadTags');
-    </script>
+    
     <style>
         @media print {
             #ghostery-purple-box {
@@ -1920,11 +1814,117 @@
         <iframe src="./Ontdek_files/saved_resource(3).html" frameborder="0" marginwidth="0" marginheight="0" scrolling="no" data-tags="right" title="Usabilla Feedback Button" style="width: 31px; height: 103px; margin: 0px; padding: 0px; border: 0px; overflow: hidden; z-index: 9998; position: absolute; left: 0px; top: 0px; box-shadow: 0px 0px 0px; background-color: transparent;"></iframe>
     </div>
 
-    <script type="text/javascript" id="undefined" src="./Ontdek_files/179"></script>
-    <script type="text/javascript" id="undefined" src="./Ontdek_files/SiteCatalyst.js"></script>
-    <script type="text/javascript" id="undefined" src="./Ontdek_files/iMAWebCookie.js"></script>
-    <script type="text/javascript" id="undefined" src="./Ontdek_files/conversion_async.js"></script>
-   
+    <script type="text/javascript" id="undefined" src="./Ontdek_files/179" async="" ></script>
+    <script type="text/javascript" id="undefined" src="./Ontdek_files/SiteCatalyst.js" async="" ></script>
+    <script type="text/javascript" id="undefined" src="./Ontdek_files/iMAWebCookie.js" async="" ></script>
+    <script type="text/javascript" id="undefined" src="./Ontdek_files/conversion_async.js" async="" ></script>
+   <script async="" src="./Ontdek_files/1085-v1.js"></script>
+    <script>
+        ! function(e) {
+            "use strict";
+            var t = function(t, n, r) {
+                function o(e) {
+                    return i.body ? e() : void setTimeout(function() {
+                        o(e)
+                    })
+                }
+
+                function a() {
+                    d.addEventListener && d.removeEventListener("load", a), d.media = r || "all"
+                }
+                var l, i = e.document,
+                    d = i.createElement("link");
+                if (n) l = n;
+                else {
+                    var s = (i.body || i.getElementsByTagName("head")[0]).childNodes;
+                    l = s[s.length - 1]
+                }
+                var u = i.styleSheets;
+                d.rel = "stylesheet", d.href = t, d.media = "only x", o(function() {
+                    l.parentNode.insertBefore(d, n ? l : l.nextSibling)
+                });
+                var f = function(e) {
+                    for (var t = d.href, n = u.length; n--;)
+                        if (u[n].href === t) return e();
+                    setTimeout(function() {
+                        f(e)
+                    })
+                };
+                return d.addEventListener && d.addEventListener("load", a), d.onloadcssdefined = f, f(a), d
+            };
+            "undefined" != typeof exports ? exports.loadCSS = t : e.loadCSS = t
+        }("undefined" != typeof global ? global : this),
+        function(e) {
+            if (e.loadCSS) {
+                var t = loadCSS.relpreload = {};
+                if (t.support = function() {
+                        try {
+                            return e.document.createElement("link").relList.supports("preload")
+                        } catch (t) {
+                            return !1
+                        }
+                    }, t.poly = function() {
+                        for (var t = e.document.getElementsByTagName("link"), n = 0; n < t.length; n++) {
+                            var r = t[n];
+                            "preload" === r.rel && "style" === r.getAttribute("as") && (e.loadCSS(r.href, r), r.rel = null)
+                        }
+                    }, !t.support()) {
+                    t.poly();
+                    var n = e.setInterval(t.poly, 300);
+                    e.addEventListener && e.addEventListener("load", function() {
+                        e.clearInterval(n)
+                    }), e.attachEvent && e.attachEvent("onload", function() {
+                        e.clearInterval(n)
+                    })
+                }
+            }
+        }(this);
+    </script>
+    <script async="" type="text/javascript" src="./Ontdek_files/modernizr-custom.js"></script>
+    <script async="" type="text/javascript">
+        var is_mobile = false;
+        if (/Android|webOS|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini/i.test(navigator.userAgent)) {
+            is_mobile = true;
+        }
+    </script>
+    <script async="" type="text/javascript">
+        var Settings = Settings || {};
+        (function(a, d, e, b, f, c, s) {
+            a[b] = a[b] || function() {
+                a[b].q.push(arguments);
+            };
+            a[b].q = [];
+            c = d.createElement(e);
+            c.async = 1;
+            c.src = "//tdn.r42tag.com/lib/" + f + ".js";
+
+            s = d.getElementsByTagName(e)[0];
+            s.parentNode.insertBefore(c, s);
+        })
+
+        (window, document, "script", "_st", "1085-v1");
+        _st('setStructurePrefix', 'entertainment', 'ontdekziggo');
+        _st('setPageStructure', document.location.pathname.replace(/^\/|\/$/g, '').replace(/\//g, '|'));
+        _st('addTagProperties', {
+            'page': {
+                'type': 'ziggoSportTotaal',
+                'environment': 'prod',
+                'tags': ['sport', 'films-series', 'muziek']
+            }
+        });
+
+        if (!window.UPC) {
+            window.UPC = {
+                vars: {}
+            };
+        } else if (!window.UPC.vars) {
+            window.UPC.vars = {};
+        }
+        window.UPC.vars.contentType = "sport|films-series|muziek";
+        // Add additional TagProperties here.
+        // Declare them before firing _st('loadTags')
+        _st('loadTags');
+    </script>
     <script type="text/javascript">
         // Copyright 2006-2017 ClickTale Ltd., US Patent Pending
         // PID: 64
